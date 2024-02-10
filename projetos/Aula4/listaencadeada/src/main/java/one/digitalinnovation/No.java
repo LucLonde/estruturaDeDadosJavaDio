@@ -3,13 +3,13 @@ package one.digitalinnovation;
 public class No<T> {
 
     private T conteudo;
-    private No proximoNo = null;
+    private No <T> proximoNo = null;
 
     public No(T conteudo){
         this.conteudo = conteudo;
     }
 
-    public No(T conteudo, No proximoNo) {
+    public No (T conteudo, No proximoNo) {
         this.conteudo = conteudo;
         this.proximoNo = proximoNo;
     }
